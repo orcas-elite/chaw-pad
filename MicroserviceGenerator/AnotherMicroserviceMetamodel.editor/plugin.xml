@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated anotherMicroserviceMetamodel -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="anotherMicroserviceMetamodel.presentation.AnotherMicroserviceMetamodelModelWizardID"
+            name="%_UI_AnotherMicroserviceMetamodelModelWizard_label"
+            class="anotherMicroserviceMetamodel.presentation.AnotherMicroserviceMetamodelModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/AnotherMicroserviceMetamodelModelFile.gif">
+         <description>%_UI_AnotherMicroserviceMetamodelModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated anotherMicroserviceMetamodel -->
+      <editor
+            id="anotherMicroserviceMetamodel.presentation.AnotherMicroserviceMetamodelEditorID"
+            name="%_UI_AnotherMicroserviceMetamodelEditor_label"
+            icon="icons/full/obj16/AnotherMicroserviceMetamodelModelFile.gif"
+            extensions="anothermicroservicemetamodel"
+            class="anotherMicroserviceMetamodel.presentation.AnotherMicroserviceMetamodelEditor"
+            contributorClass="anotherMicroserviceMetamodel.presentation.AnotherMicroserviceMetamodelActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

@@ -1,0 +1,35 @@
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: restdata
+  labels:
+    name: restdata
+spec:
+  replicas: 1
+  selector:
+    name: restdata
+  template:
+    metadata:
+      labels:
+        name: restdata
+    spec:
+      containers:
+      - name: restdata
+        image: duelle/edcc:restdata
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8080
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: restdata
+  labels:
+    name: restdata
+spec:
+  type: NodePort
+  ports:
+  - port: 8080
+    name: http
+  selector: 
+    name: restdata

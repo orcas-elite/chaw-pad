@@ -1,0 +1,35 @@
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: elb
+  labels:
+    name: elb
+spec:
+  replicas: 1
+  selector:
+    name: elb
+  template:
+    metadata:
+      labels:
+        name: elb
+    spec:
+      containers:
+      - name: elb
+        image: duelle/edcc:elb
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8080
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: elb
+  labels:
+    name: elb
+spec:
+  type: NodePort
+  ports:
+  - port: 8080
+    name: http
+  selector: 
+    name: elb
