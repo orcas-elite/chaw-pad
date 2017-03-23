@@ -1,0 +1,35 @@
+2017-03-22T11:46:38.565083000Z Registered: app:fdb53a2a-e572-43a0-960f-87e35d765eff:authenticate
+2017-03-22T11:46:38.565347000Z Registered: app:fdb53a2a-e572-43a0-960f-87e35d765eff:processRequest
+2017-03-22T11:46:38.599283000Z Registered: cassandra:1f496015-7b3a-44d0-86c1-c3a32678e7c0:storeData
+2017-03-22T11:46:38.599797000Z Registered: cassandra:1f496015-7b3a-44d0-86c1-c3a32678e7c0:readData
+2017-03-22T11:46:46.795796000Z Registered: elb:7771c5af-1c2d-4b4f-ab48-dc252744a755:getIndexOrder
+2017-03-22T11:46:46.796049000Z Registered: elb:7771c5af-1c2d-4b4f-ab48-dc252744a755:getIndexLogin
+2017-03-22T11:46:54.298893000Z Registered: proxy:aaaec127-13f7-4559-9f52-f7b1299d11ef:getInstanceLogin
+2017-03-22T11:46:54.299145000Z Registered: proxy:aaaec127-13f7-4559-9f52-f7b1299d11ef:getInstanceOrder
+2017-03-22T11:47:00.350783000Z Registered: restdata:c7294a9a-7aff-4573-991c-b7f388b147ec:write
+2017-03-22T11:47:00.351051000Z Registered: restdata:c7294a9a-7aff-4573-991c-b7f388b147ec:read
+2017-03-22T11:57:23.246746000Z anomalyDelay {type: ., uuid: , method: , duration: 20000, start: 1490183843244, end: 1490183863244, delay: 200}
+2017-03-22T11:57:23.263452000Z 7103134207536547;REAL
+2017-03-22T11:57:43.270483000Z AnomalyDelayDeleteTask: Removed delay (:200)
+2017-03-22T11:57:53.290359000Z rampUpDelay {type: app, duration: 15000, start: 1490183873289, end: 1490183873539, delay: 250, contDelay: 50}
+2017-03-22T11:57:53.306084000Z 7103164250180903;RAMP_UP
+2017-03-22T11:58:08.293426000Z RampUpDelayDeleteTask: Removed delay (app:250)
+2017-03-22T11:58:23.310699000Z rampUpDelay {type: cassandra, duration: 30000, start: 1490183903309, end: 1490183903609, delay: 300, contDelay: 0}
+2017-03-22T11:58:23.312025000Z 7103194256116189;RAMP_UP
+2017-03-22T11:58:53.311223000Z RampUpDelayDeleteTask: Removed delay (cassandra:300)
+2017-03-22T11:59:23.322449000Z anomalyDelay {type: ., uuid: , method: , duration: 40000, start: 1490183963321, end: 1490184003321, delay: 150}
+2017-03-22T11:59:23.323883000Z 7103254268102563;REAL
+2017-03-22T12:00:03.323800000Z AnomalyDelayDeleteTask: Removed delay (:150)
+2017-03-22T12:00:23.326663000Z rampUpDelay {type: restdata, duration: 20000, start: 1490184023326, end: 1490184023626, delay: 300, contDelay: 30}
+2017-03-22T12:00:23.327505000Z 7103314271840538;RAMP_UP
+2017-03-22T12:00:43.327109000Z RampUpDelayDeleteTask: Removed delay (restdata:300)
+2017-03-22T12:01:08.331981000Z anomalyDelay {type: ., uuid: , method: , duration: 45000, start: 1490184068331, end: 1490184113331, delay: 400}
+2017-03-22T12:01:08.358325000Z 7103359279890272;REAL
+2017-03-22T12:01:53.334331000Z AnomalyDelayDeleteTask: Removed delay (:400)
+2017-03-22T12:02:08.339922000Z rampUpDelay {type: elb, duration: 20000, start: 1490184128339, end: 1490184128489, delay: 150, contDelay: 0}
+2017-03-22T12:02:08.341499000Z 7103419285538244;RAMP_UP
+2017-03-22T12:02:28.340589000Z RampUpDelayDeleteTask: Removed delay (elb:150)
+2017-03-22T12:02:53.345684000Z rampUpDelay {type: cassandra, duration: 30000, start: 1490184173344, end: 1490184173594, delay: 250, contDelay: 50}
+2017-03-22T12:02:53.346459000Z 7103464290577382;RAMP_UP
+2017-03-22T12:03:23.346413000Z RampUpDelayDeleteTask: Removed delay (cassandra:250)
+2017-03-22T12:03:58.359964000Z Done. 

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EARExperimentSetup.iml" filepath="$PROJECT_DIR$/EARExperimentSetup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../thesis-rancear/kieker-examples/monitoring/adaptive-monitoring/Kieker Example - Adaptive Monitoring.iml" filepath="$PROJECT_DIR$/../../thesis-rancear/kieker-examples/monitoring/adaptive-monitoring/Kieker Example - Adaptive Monitoring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../thesis-rancear/kieker-examples/analysis/kax-files/Kieker Example - Analysis - KAX Files.iml" filepath="$PROJECT_DIR$/../../thesis-rancear/kieker-examples/analysis/kax-files/Kieker Example - Analysis - KAX Files.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../thesis-rancear/kieker-examples/analysis/opad-anomaly-detection/Kieker Example - Analysis - OPAD.iml" filepath="$PROJECT_DIR$/../../thesis-rancear/kieker-examples/analysis/opad-anomaly-detection/Kieker Example - Analysis - OPAD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../thesis-rancear/kieker-examples/monitoring/probe-aspectj/Kieker Example - Monitoring - AspectJ.iml" filepath="$PROJECT_DIR$/../../thesis-rancear/kieker-examples/monitoring/probe-aspectj/Kieker Example - Monitoring - AspectJ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../thesis-rancear/kieker-examples/monitoring/custom-timesource/Kieker Example - Monitoring - Custom Timesource.iml" filepath="$PROJECT_DIR$/../../thesis-rancear/kieker-examples/monitoring/custom-timesource/Kieker Example - Monitoring - Custom Timesource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../thesis-rancear/kieker-examples/monitoring/sampler-jvm/Kieker Example - Monitoring - JVM.iml" filepath="$PROJECT_DIR$/../../thesis-rancear/kieker-examples/monitoring/sampler-jvm/Kieker Example - Monitoring - JVM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../thesis-rancear/kieker-examples/monitoring/probe-manual/Kieker Example - Monitoring - Manual.iml" filepath="$PROJECT_DIR$/../../thesis-rancear/kieker-examples/monitoring/probe-manual/Kieker Example - Monitoring - Manual.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../thesis-rancear/kieker-examples/monitoring/sampler-sigar/Kieker Example - Monitoring - Sigar.iml" filepath="$PROJECT_DIR$/../../thesis-rancear/kieker-examples/monitoring/sampler-sigar/Kieker Example - Monitoring - Sigar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../thesis-rancear/kieker-examples/monitoring/probe-spring/Kieker Example - Monitoring - Spring AOP.iml" filepath="$PROJECT_DIR$/../../thesis-rancear/kieker-examples/monitoring/probe-spring/Kieker Example - Monitoring - Spring AOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../thesis-rancear/kieker-examples/userguide/ch2--bookstore-application/Kieker Example 1 ch2--bookstore-application.iml" filepath="$PROJECT_DIR$/../../thesis-rancear/kieker-examples/userguide/ch2--bookstore-application/Kieker Example 1 ch2--bookstore-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../thesis-rancear/kieker-examples/userguide/ch2--manual-instrumentation/Kieker Example 2 ch2--manual-instrumentation.iml" filepath="$PROJECT_DIR$/../../thesis-rancear/kieker-examples/userguide/ch2--manual-instrumentation/Kieker Example 2 ch2--manual-instrumentation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../thesis-rancear/kieker-examples/userguide/ch3-4--custom-components/Kieker Example 3 ch3-4--custom-components.iml" filepath="$PROJECT_DIR$/../../thesis-rancear/kieker-examples/userguide/ch3-4--custom-components/Kieker Example 3 ch3-4--custom-components.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../thesis-rancear/kieker-examples/userguide/ch5--trace-monitoring-aspectj/Kieker Example 4 ch5--trace-monitoring-aspectj.iml" filepath="$PROJECT_DIR$/../../thesis-rancear/kieker-examples/userguide/ch5--trace-monitoring-aspectj/Kieker Example 4 ch5--trace-monitoring-aspectj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../thesis-rancear/kieker-examples/userguide/appendix-Sigar/Kieker Example 6 appendix-Sigar.iml" filepath="$PROJECT_DIR$/../../thesis-rancear/kieker-examples/userguide/appendix-Sigar/Kieker Example 6 appendix-Sigar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../thesis-rancear/kieker-examples/SPECjEnterprise2010/Kieker SPECjEnterprise2010.iml" filepath="$PROJECT_DIR$/../../thesis-rancear/kieker-examples/SPECjEnterprise2010/Kieker SPECjEnterprise2010.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../thesis-rancear/kieker.iml" filepath="$PROJECT_DIR$/../../thesis-rancear/kieker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../thesis-rancear/kieker-analysis/kieker-analysis.iml" filepath="$PROJECT_DIR$/../../thesis-rancear/kieker-analysis/kieker-analysis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../thesis-rancear/kieker-checkstyle-extension/kieker-checkstyle-extension.iml" filepath="$PROJECT_DIR$/../../thesis-rancear/kieker-checkstyle-extension/kieker-checkstyle-extension.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../thesis-rancear/kieker-common/kieker-common.iml" filepath="$PROJECT_DIR$/../../thesis-rancear/kieker-common/kieker-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../thesis-rancear/kieker-documentation/kieker-documentation.iml" filepath="$PROJECT_DIR$/../../thesis-rancear/kieker-documentation/kieker-documentation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../thesis-rancear/kieker-examples/kieker-examples.iml" filepath="$PROJECT_DIR$/../../thesis-rancear/kieker-examples/kieker-examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../thesis-rancear/kieker-monitoring/kieker-monitoring.iml" filepath="$PROJECT_DIR$/../../thesis-rancear/kieker-monitoring/kieker-monitoring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../thesis-rancear/kieker-tools/kieker-tools.iml" filepath="$PROJECT_DIR$/../../thesis-rancear/kieker-tools/kieker-tools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../thesis-rancear/kieker-documentation/userguide/userguide.iml" filepath="$PROJECT_DIR$/../../thesis-rancear/kieker-documentation/userguide/userguide.iml" />
+    </modules>
+  </component>
+</project>
