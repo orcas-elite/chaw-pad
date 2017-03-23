@@ -79,7 +79,7 @@ public class EvaluationSetup {
 		
 		// Path of the monitoring data that is used for the analysis
 		fsReaderConfig.setProperty(FSReader.CONFIG_PROPERTY_NAME_INPUTDIRS,
-				"/tmp/experiment/kieker-logs");
+				"kieker-20161031-193642988-UTC-monitoringserver-p1krn-KIEKER");
 		final FSReader fsReader = new FSReader(fsReaderConfig, controller);
 
 		final ExtractionFilter extractionFilter = new ExtractionFilter(new Configuration(), controller);
@@ -198,7 +198,6 @@ public class EvaluationSetup {
 		}
 		opadRemappingsWriter.close();
 
-		/**
 		assignAnomalyValues(resultingList);
 
 		for (List<DependencyItem> depItemList : DependencyPath.getDependencyItems()) {
@@ -274,7 +273,6 @@ public class EvaluationSetup {
 			writer.println(rr.toString());
 		}
 		writer.close();
-		**/
 	}
 
 	private static HashMap<AnomalyScope, TreeSet<Long>> readUpdateEvents(String csvFile) throws IOException {

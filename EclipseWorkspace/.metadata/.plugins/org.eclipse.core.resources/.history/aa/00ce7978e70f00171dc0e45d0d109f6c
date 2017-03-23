@@ -198,7 +198,6 @@ public class EvaluationSetup {
 		}
 		opadRemappingsWriter.close();
 
-		/**
 		assignAnomalyValues(resultingList);
 
 		for (List<DependencyItem> depItemList : DependencyPath.getDependencyItems()) {
@@ -274,7 +273,6 @@ public class EvaluationSetup {
 			writer.println(rr.toString());
 		}
 		writer.close();
-		**/
 	}
 
 	private static HashMap<AnomalyScope, TreeSet<Long>> readUpdateEvents(String csvFile) throws IOException {

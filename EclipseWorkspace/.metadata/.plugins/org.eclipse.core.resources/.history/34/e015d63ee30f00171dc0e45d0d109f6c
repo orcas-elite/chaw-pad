@@ -53,7 +53,7 @@ public class EvaluationSetup {
 		final String path = "/tmp/experiment/";
 
 		new File(path).mkdir();
-		final String currentValue = "0.8";
+		final String currentValue = "0.95";
 		final String currentPath = path + currentValue + "/";
 		new File(currentPath).mkdir();
 
@@ -79,7 +79,7 @@ public class EvaluationSetup {
 		
 		// Path of the monitoring data that is used for the analysis
 		fsReaderConfig.setProperty(FSReader.CONFIG_PROPERTY_NAME_INPUTDIRS,
-				"/tmp/experiment/kieker-logs");
+				"kieker-20161031-193642988-UTC-monitoringserver-p1krn-KIEKER");
 		final FSReader fsReader = new FSReader(fsReaderConfig, controller);
 
 		final ExtractionFilter extractionFilter = new ExtractionFilter(new Configuration(), controller);
@@ -129,6 +129,7 @@ public class EvaluationSetup {
 		opadOutputLoggerConfig.setProperty(TeeFilter.CONFIG_PROPERTY_NAME_APPEND, "false");
 		final TeeFilter opadOutputLogger = new TeeFilter(opadOutputLoggerConfig, controller);
 
+		/**
 		final MessageTraceDependencyExtractor mtde = new MessageTraceDependencyExtractor(new Configuration(),
 				controller);
 
@@ -198,7 +199,6 @@ public class EvaluationSetup {
 		}
 		opadRemappingsWriter.close();
 
-		/**
 		assignAnomalyValues(resultingList);
 
 		for (List<DependencyItem> depItemList : DependencyPath.getDependencyItems()) {
